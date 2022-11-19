@@ -1,7 +1,4 @@
-class Converter {
-  constructor() {}
+const assert = require("assert").strict;
+const { expect, test } = require("@jest/globals");
 
-  convert(romanNumber) {
-    return "I";
-  }
-}
+test("Empty test for I", () => {});
