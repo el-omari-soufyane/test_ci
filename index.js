@@ -2,7 +2,7 @@ class Converter {
     constructor() {}
   
     convert(romanNumber) {
-      return "I".repeat(romanNumber);
+      return romanNumber < 4 ? "I".repeat(romanNumber) : "IV";
     }
   }
   
