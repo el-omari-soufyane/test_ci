@@ -2,7 +2,7 @@ class Converter {
     constructor() {}
   
     convert(romanNumber) {
-      return "I";
+      return "I".repeat(romanNumber);
     }
   }
   
